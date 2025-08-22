@@ -35,8 +35,8 @@ This helps in designing a robust intraday strategy tailored to each stock’s be
 ---
 
 ## Repository Contents
-- `Required stocks for analysis`: Dataset used for strategy testing
-- `Strategy code`: Python notebooks implementing the logic
+- `Data`: Dataset used for strategy testing
+- `The Algorithm`: Python notebooks implementing the logic
 - `README.md`: Project documentation
 
 ---
