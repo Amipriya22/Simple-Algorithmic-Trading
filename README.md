@@ -1,4 +1,4 @@
-# ALgo-Trading: Intraday Strategy Optimization
+# Simple Algorithmic Trading: Intraday Strategy Optimization
 
 This project focuses on developing an intraday trading strategy for selected stocks by analyzing variations in their **Open**, **High**, **Low**, and **Close** prices. The goal is to identify optimal entry and exit times to maximize returns.
 
