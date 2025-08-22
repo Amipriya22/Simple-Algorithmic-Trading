@@ -1,14 +1,14 @@
-# 📊 ALgo-Trading: Intraday Strategy Optimization
+# ALgo-Trading: Intraday Strategy Optimization
 
 This project focuses on developing an intraday trading strategy for selected stocks by analyzing variations in their **Open**, **High**, **Low**, and **Close** prices. The goal is to identify optimal entry and exit times to maximize returns.
 
 ---
 
-## 🔍 Strategy Overview
+## Strategy Overview
 
 We evaluate price movements using multiple threshold levels:
 
-### ✅ Threshold Levels
+### Threshold Levels
 - **k = 0.35%**
 - **k = 0.5%**
 - **k = 1%**
@@ -23,7 +23,7 @@ For each threshold \( k \), we:
 
 ---
 
-## ⏱ Time-Based Optimization
+## Time-Based Optimization
 
 - We identify the **worst time** for each stock — the time after which it **never crosses** the threshold \( k \).
 - Using this insight, we optimize:
@@ -34,14 +34,14 @@ This helps in designing a robust intraday strategy tailored to each stock’s be
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 - `Required stocks for analysis`: Dataset used for strategy testing
 - `Strategy code`: Python notebooks implementing the logic
 - `README.md`: Project documentation
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 - Incorporate volume and volatility metrics
 - Extend strategy to multi-day swing trades
 - Add backtesting and performance visualization
